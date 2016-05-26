@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <script src="../js/validar.js">
+    </script>
+</head>
+<body>
+   <form>
+     <h1>validar:</h1>
+     <br>
+     INGRESAR PALABRA
+     <br>
+     <input type="text"  onkeypress="return soloLetras(event)" onpaste="return false">
+     <br>
+     INGRESAR NUMERO
+     <br>
+     <input type="text" onkeypress="return solonumeros(event)" onblur="limpia()" id="miInput">
+   </form>
+</body>
+</html>
