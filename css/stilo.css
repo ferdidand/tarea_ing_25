@@ -15,10 +15,16 @@ form{
     max-width: 500px;
     background-color: #fdfdfd;
     padding: 30px;
-    border: 1px solid rgba(0,0,0,0.2)
+    border: 1px solid rgba(0,0,0,0.2);
     /*margin-top: 90px;
     margin-bottom: 40px;
     margin-left: 60px;
     margin-right: 56px;*/
-
+}
+input{
+    display: block;/*centrar*/
+    padding: 1px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 20px; /*fuente tamaño*/
 }
