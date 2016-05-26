@@ -11,7 +11,7 @@ body{
 }
 form{
     margin: auto;
-    width: 50%;
+    width: 20%;
     max-width: 500px;
     background-color: #fdfdfd;
     padding: 30px;
@@ -20,6 +20,11 @@ form{
     margin-bottom: 40px;
     margin-left: 60px;
     margin-right: 56px;*/
+}
+h1{
+    text-align: center;/*alienacion d etexto*/
+    margin-bottom: 20px;/*margen fondo*/
+    color: rgba(119, 118, 129, 0.97);
 }
 input{
     display: block;/*centrar*/
