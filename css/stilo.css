@@ -4,11 +4,21 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+body{
+    background: #f2f2f2;
+    display: flex;
+    min-height: 100vb;
+}
 form{
-    background-color: crimson;
-    margin-top: 90px;
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background-color: #fdfdfd;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0.2)
+    /*margin-top: 90px;
     margin-bottom: 40px;
     margin-left: 60px;
-    margin-right: 56px;
-    padding: 50px;
+    margin-right: 56px;*/
+
 }
